@@ -11,8 +11,8 @@
 
 @interface CDVAppInfo : CDVPlugin
 
-- (void) version:(NSMutableArray *)arguments withDict:(NSMutableDictionary *)options;
-- (void) build:(NSMutableArray *)arguments withDict:(NSMutableDictionary *)options;
-- (void) customKey:(NSMutableArray *)arguments withDict:(NSMutableDictionary *)options;
+- (void) version:(CDVInvokedUrlCommand*)command;
+- (void) build:(CDVInvokedUrlCommand*)command;
+- (void) customKey:(CDVInvokedUrlCommand*)command;
 
 @end

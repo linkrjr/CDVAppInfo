@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="it.technophile.cordova.cdvappinfo"
+    version="1.0.0">
+    
+    <name>CDVAppInfo</name>
+    
+    <engines>
+      <engine name="cordova" version=">=2.1.0"/>
+    </engines>
+    
+    <asset src="www/CDVAppInfo.js" target="CDVAppInfo.js"/>
+    
+    <platform name="ios">
+      <plugins-plist key="AppInfo" string="CDVAppInfo" />
+      
+      <header-file src="CDVAppInfo.h" target-dir="CDVAppInfo"/>
+      
+      <source-file src="CDVAppInfo.m" target-dir="CDVAppInfo"/>      
+    </platform>
+    
+</plugin>
