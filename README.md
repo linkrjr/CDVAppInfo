@@ -30,6 +30,10 @@ Open Cordova.plist/config.xml file in Xcode, depending on the version of cordova
     
     <plugin name="AppInfo" value="CDVAppInfo"/>
 
+## Features to be added ##
+
+- Ability to return Array or Dictionaty keys
+
 ## BUGS AND CONTRIBUTIONS ##
 The latest release version is available [on GitHub](https://github.com/linkrjr/CDVAppInfo)
 If you have a patch, fork my repo and send me a pull request. Submit bug reports on GitHub, please.
