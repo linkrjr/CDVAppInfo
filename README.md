@@ -6,7 +6,7 @@ Copy the .h and .m file to the Plugins directory in your project. Copy the .js f
 
 
 ## Using the plugin ##
-The plugin creates the object `window.plugins.appInfo` which has three methods
+The plugin creates the object `window.plugins.appInfo` that makes the following three methods available:
 
 - version(successCallback, errorCallback) - returns the application version
 - build(successCallback, errorCallback) - returns the application build number
