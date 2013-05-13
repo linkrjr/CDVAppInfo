@@ -42,7 +42,7 @@ If you have a patch, fork my repo and send me a pull request. Submit bug reports
 
 The MIT License
 
-Copyright (c) 2011 Tue Topholm / Sugee
+Copyright (c) 2013 Technophile.it Solutions.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

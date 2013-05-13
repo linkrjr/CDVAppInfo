@@ -1,9 +1,8 @@
 //
 //  CDVAppVersion.m
-//  betfair
 //
 //  Created by Ronaldo Gomes on 18/04/13.
-//  Copyright (c) 2013 Hypothetical Solutions. All rights reserved.
+//  Copyright (c) 2013 Technophile.it Solutions. All rights reserved.
 //
 
 #import "CDVAppInfo.h"
